@@ -38,4 +38,4 @@ Player 2 Down:	Down Arrow
 ## 📄 License
 This project is licensed under the MIT License.
 
-# Built with ❤️ using LÖVE2D
+# Built with ❤️ using LÖVE2D by Vikas
