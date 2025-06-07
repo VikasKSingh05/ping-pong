@@ -10,7 +10,7 @@ PADDLE_HEIGHT = 100
 -- Ball properties
 BALL_SIZE = 10
 
-function love.load()
+function love.load() --1st function
     love.window.setTitle("2-Player Ping Pong")
     love.window.setMode(WINDOW_WIDTH, WINDOW_HEIGHT)
 
@@ -27,7 +27,7 @@ function love.load()
     player2Score = 0
 end
 
-function love.update(dt)
+function love.update(dt). -- 2nd function 
     -- Player 1 (W/S)
     if love.keyboard.isDown("w") then
         player1Y = math.max(0, player1Y - PADDLE_SPEED * dt)
@@ -77,7 +77,7 @@ function resetBall()
     ballDY = math.random(-50, 50)
 end
 
-function love.draw()
+function love.draw(). -- 3rd function 
     -- Background
     love.graphics.clear(0.1, 0.1, 0.1)
 
